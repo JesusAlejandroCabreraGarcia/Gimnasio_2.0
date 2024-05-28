@@ -77,13 +77,13 @@
                             </span>
                         </button>
                         <p class="mt-6 text-xs text-gray-600 text-center">
-                            I agree to abide by templatana's
+                            Acepto cumplir con las normas de Gym Bulls.
                             <a href="#" class="border-b border-gray-500 border-dotted">
-                                Terms of Service
+                                Términos de servicio
                             </a>
-                            and its
+                            y su
                             <a href="#" class="border-b border-gray-500 border-dotted">
-                                Privacy Policy
+                                Política de Privacidad
                             </a>
                         </p>
                     </div>
