@@ -2,7 +2,7 @@
 
 <div class="p-4 sm:ml-64">
       <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-      <h1>Bienvenido al sistema</h1>
+      <h1>Bienvenido al Dashboard</h1>
       </div>
       <router-view/>
    </div>
@@ -18,13 +18,14 @@
       <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
          <ul class="space-y-2 font-medium">
             <li>
-               <RouterLink to="/Home"></RouterLink>
+               <RouterLink to="/Home">
                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                   <span class="material-symbols-outlined">
                   bar_chart_4_bars
                   </span>
                   <span class="ms-3">Dashboard</span>
                </a>
+               </RouterLink>
             </li>
             <li>
                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
@@ -148,12 +149,12 @@
                         </RouterLink>
                      </li>
                      <li>
-                        <RouterLink to="/Puestos">
+                        <RouterLink to="/Puesto">
                         <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Puestos</a>
                         </RouterLink>
                      </li>
                      <li>
-                        <RouterLink to="/Empleados">
+                        <RouterLink to="/Empleado">
                         <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Empleados</a>
                         </RouterLink>
                      </li>
@@ -163,7 +164,7 @@
                         </RouterLink>
                      </li>
                      <li>
-                        <RouterLink to="/Horarios">
+                        <RouterLink to="/Horario">
                         <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Horarios</a>
                         </RouterLink>
                      </li>

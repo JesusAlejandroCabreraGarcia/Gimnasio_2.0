@@ -43,4 +43,20 @@
             placeholder="Fotografia">
         
     </div>
+
+    
+    <Tabla></Tabla>
+                        <h4 class="pt-8 pb-6 font-bold text-3xl dark:text-gray-400 text-center cursor-default">
+                            Datos de acceso
+                        </h4>
+                        
 </template> 
+
+<script>
+import Tabla from './Tabla.vue'
+export default {
+    components: { 
+        Tabla
+    }
+}
+</script>
