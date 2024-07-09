@@ -32,8 +32,6 @@ class Person(Base):
     Genero = Column(Enum(MyGenero))
     Tipo_Sangre = Column(Enum(MySangre))
     Estatus=Column(Boolean,default=False)
-    fecha_actualizacion =Column(DateTime)
-    estatus = Column(Boolean, index=False)
     Fecha_Registro = Column(DateTime())
     Fecha_Actualizacion= Column(DateTime())
     # Id_persona = Column(Integer)

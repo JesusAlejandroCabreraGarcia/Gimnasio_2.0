@@ -15,7 +15,7 @@ class User(Base):
     __tablename__ = 'tbb_usuarios'
 
     ID = Column(Integer, primary_key=True, index=True)
-    Persona_ID = Column(Integer, ForeignKey("persons.id"))
+    Persona_ID = Column(Integer, ForeignKey("tbb_personas.ID"))
     Nombre_Usuario = Column(String(100))
     Correo_Electronico = Column(String(100))
     Contrasena = Column(String(100))
