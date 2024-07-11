@@ -1,17 +1,18 @@
 from typing import List, Union
 from pydantic  import BaseModel
-from datetime import datetime,date
+from datetime import datetime, date
 
 class PersonBase(BaseModel):
     Titulo_Cortesia:str
     Nombre:str
     Primer_Apellido:str
     Segundo_Apellido:str
-    Foto:str
+    Fecha_Nacimiento:datetime
+    Fotografia:str
     Genero:str
     Tipo_Sangre:str
     Estatus: bool
-    Fecha_Nacimiento:date
+    Fecha_Registro:datetime
     Fecha_Actualizacion:datetime
     # Id_persona: int
 
